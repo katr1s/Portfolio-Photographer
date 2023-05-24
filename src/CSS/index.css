@@ -168,6 +168,7 @@ section .content{
 .home .titleHome .post p{
 	font-size: 15px;
 	font-weight: bold;
+	transform: translate(100px, -55px);
 	width: 30ch;
 	color: var(--Black);
 	opacity: 0.6;
@@ -219,6 +220,10 @@ section .content{
 	border-radius: 50%;
 }
 
+.work{
+	border: 1px solid red;
+}
+
 .work h2{
 	font-family: var(--Title);	
 	color: transparent;
@@ -231,6 +236,7 @@ section .content{
 	width: 100%;
 	height: auto;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -238,16 +244,38 @@ section .content{
 
 
 .work .images .img-1{
-	width: 34.3%;
+	width: 50%;
 	height: auto;
+	transform: rotate(-20deg);
 }
 
 .work .images .img-2{
-	width: 65.7%;
+	width: 50%;
+	height: auto;
+	transform: rotate(20deg);
 }
 
 .work .images img{
 	width: 50%;
 	object-fit: cover;
 	cursor: pointer;
+}
+
+.absoluteImage{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	background: var(--Gris);
+}
+
+.absoluteImage img{
+	width: 50%;
+	height: auto;
+}
+
+.hidden{
+	display: none;
 }
