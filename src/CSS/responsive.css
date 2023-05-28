@@ -68,7 +68,7 @@
 	}
 
 	#About{
-		height: 1000px;
+		height: 1200px;
 	}
 
 	#About .info{
@@ -108,6 +108,7 @@
 
 	#About .info h4{
 		font-size: 80px;
+		margin-top: 50px;
 	}
 }
 
