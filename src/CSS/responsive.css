@@ -1,6 +1,6 @@
 @media screen and (max-width: 1023px) and (min-width: 767px){
 	header{
-		height: 80px;
+		height: 200px;
 	}
 
 	header .content{
@@ -10,17 +10,17 @@
 	}
 
 	header .logo{
-		width: 55px;
-		height: 55px;
+		width: 100px;
+		height: 100px;
 	}
 
 	header .logo img{
-		width: 55px;
-		height: 55px;
+		width: 100px;
+		height: 100px;
 	}
 
 	header .sections a{
-		font-size: 35px;
+		font-size: 60px;
 	}
 
 	section .content{
